@@ -1,0 +1,97 @@
+body {
+  	font-size: 16px;
+  	color: black; /*~~~TEXT COLOR IN BODY~~~*/
+ 	 background-color: #ffe1f9; /*~~~BACKGROUND COLOR~~~*/
+  	font-family: /*'Oxygen'*/, sans-serif;
+}
+
+/*HEADER*/
+#header-nav {
+	background-color: #dcd4ff; /*~~~HEADER~~~*/
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+}
+
+.navbar-brand h1 { /*****Restaurant Name*****/
+	font-family: /*'Lora', serif*/;
+	color: black; /*~~~LOGO NAME~~~*/
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: black; /*~~~TEXT COLOR IN NAVIGATION~~~*/
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #afb8ff; /*~~~HOVERING NAVIGATION ~~~*/
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black; /*~~~BUTTON ICON~~~*/
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/*END HEADER*/
+
+
+
+/*Medium devices*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*Small devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*Extra small devices*/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 50px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  /* End Header */
+
+}
+
+
+/*MAIN CONTENT*/
+.section {
+	background-color: #d5deff; /*~~~DIV BOXES~~~*/
+	color: 	black; /*~~~TEXT COLOR FOR BOXES~~~*/
+	padding: 1px 25px 25px;
+	margin: 10px;
+}
+
+#title {
+	text-align: center;
